@@ -1,0 +1,32 @@
+{
+  "name": "taskmill-core-cron",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a7medkamel/taskmill-core-cron.git"
+  },
+  "author": "a7medkamel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a7medkamel/taskmill-core-cron/issues"
+  },
+  "homepage": "https://github.com/a7medkamel/taskmill-core-cron#readme",
+  "dependencies": {
+    "bluebird": "^3.4.0",
+    "body-parser": "^1.15.1",
+    "config": "^1.21.0",
+    "config-url": "git+https://github.com/a7medkamel/config-url.git",
+    "cron-parser": "^2.1.0",
+    "crontab": "^1.1.2",
+    "express": "^4.13.4",
+    "later": "^1.2.0",
+    "lodash": "^4.13.1",
+    "redis": "^2.6.2",
+    "winston": "^2.2.0"
+  }
+}
