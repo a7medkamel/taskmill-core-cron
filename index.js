@@ -6,7 +6,7 @@ var config    = require('config-url')
   ;
 
 process.on('uncaughtException', function (err) {
-  console.error(err.stack || err.toString());
+  winston.error(err.stack || err.toString());
 });
 
 function main() {

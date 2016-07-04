@@ -1,11 +1,20 @@
 {
-  "codedb" : {
-    "port"  : "8686"
+  "codedb"    : {
+    "port"    : "8686"
   },
-  "cron" : {
-    "batch" : {
-      "read"  : 10000,
-      "write" : 1000
+  "www"       : "https://www.breadboard.io",
+  "cron"      : {
+    "redis"   : {
+      "db"    : "1"
+    },
+    "winston" : {
+      "level" : "info"
+    },
+    "exec"    : {
+      "url"   : "http://localhost:8060"
+    },
+    "scheduler" : {
+      "url"   : "http://localhost:8061"
     }
   }
 }
