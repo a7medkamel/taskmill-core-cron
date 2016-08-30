@@ -1,9 +1,6 @@
 {
-  "codedb"    : {
-    "port"    : "8686"
-  },
-  "www"       : "https://www.breadboard.io",
   "cron"      : {
+    "port"    : "8686",
     "redis"   : {
       "db"    : "1"
     },
@@ -12,9 +9,12 @@
     },
     "exec"    : {
       "url"   : "http://localhost:8060"
-    },
-    "scheduler" : {
-      "url"   : "http://localhost:8061"
     }
+  },
+  "pubsub" : {
+    "host"          : "[HOST]",
+    "port"          : 6379,
+    "password"      : "[PASSWORD]",
+    "db"            : 1
   }
 }

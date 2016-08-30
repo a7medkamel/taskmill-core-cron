@@ -1,0 +1,8 @@
+{
+  "pubsub" : {
+    "host"          : "redis.breadboard.io",
+    "port"          : 6379,
+    "password"      : "RFt4JTlU4lZMMi1ck3zHx8Id",
+    "db"            : 5
+  }
+}
