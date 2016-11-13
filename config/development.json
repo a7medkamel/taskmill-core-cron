@@ -1,2 +1,5 @@
 {
+  "account" : {
+    "url"               : "http://localhost:8050"
+  }
 }
