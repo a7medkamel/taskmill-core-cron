@@ -1,8 +1,14 @@
 {
+  "account"     : {
+    "url"               : "http://account.breadboard.io"
+  },
   "cron"      : {
     "port"    : "8686",
     "redis"   : {
-      "db"    : "1"
+      "db"          : "1",
+      "host"        : "[HOST]",
+      "port"        : 6379,
+      "password"    : "[PASSWORD]"
     },
     "winston" : {
       "level" : "info"

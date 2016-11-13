@@ -23,6 +23,7 @@
     "body-parser": "^1.15.2",
     "config": "^1.21.0",
     "config-url": "git+https://github.com/a7medkamel/config-url.git",
+    "taskmill-core-account-sdk": "git+https://github.com/a7medkamel/taskmill-core-account-sdk.git",
     "crontab": "^1.1.3",
     "express": "^4.14.0",
     "later": "^1.2.0",
